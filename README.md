@@ -78,7 +78,9 @@ Basically Entering 1 Brings You Into Arthimatic (Basic Math) Mode. From There yo
 
 (Obviously, you need to understand the math behind what you're doing to actually make use of OnionCalc.)
 
-Contributions
+---
+
+# Contributions
 
 Feel free to pull the project and add any quality-of-life improvements or features you think would make it better!
 
