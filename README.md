@@ -24,11 +24,38 @@ pip install SymPy
 
 # My Custom Made OnionColors Library makes using colors in Python easier
 pip install OnionColors
+
+# If You Would Like To Demo The GUI Mode You Need To Install PySide6
+pip install PySide6
 ```
 
 ---
 
 # How To Use
+
+When you first open Main.py you will be greeted with this screen
+
+```
+1: Terminal
+2: GUI
+
+Please Enter The Mode: 
+```
+
+**GUI**: A GUI Based Version Of OnionCalc. (***THE GUI BASED VERSION IS CURRENTLY NOT WORKING***) 
+
+**Terminal**: The Terminal Mode Is The Original Version Of OnionCalc And Should Be Used That Way
+
+---
+
+# How To Use GUI Mode
+
+(**GUI MODE IS CURRENTLY NOT AVAILABLE**)
+
+---
+
+
+# How To Use Terminal Mode
 
 When Running The Calculator For The First Time You Should Get An Interface Similar To This
 
