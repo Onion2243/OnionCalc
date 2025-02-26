@@ -1,6 +1,6 @@
 # Import Needed Libraries
 from fractions import Fraction
-import onioncolors
+from Libraries.OnionColors.onioncolors import onioncolors
 
 # Includes All My Custom Math Library Functions
 class OnionMath:
@@ -52,4 +52,8 @@ class OnionMath:
     def fraction_to_percent(numerator, denominator):
         decimal = numerator / denominator
         return decimal * 100
+    
+    def spacer(amount_of_spaces):
+        for i in range(amount_of_spaces):
+            print("")
 

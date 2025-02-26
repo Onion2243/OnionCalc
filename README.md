@@ -13,27 +13,14 @@ Since OnionCalc is a Python project, you'll need Python 3 installed to run it. I
 
 *(These aren’t mine, so I can't promise they’ll be helpful.)*
 
-
-### Required Dependencies
-
-In order for OnionCalc to work, you need to install these two libraries:
-
-```
-# SymPy handles algebra and symbolic math
-pip install SymPy
-
-# My Custom Made OnionColors Library makes using colors in Python easier
-pip install OnionColors
-
-# If You Would Like To Demo The GUI Mode You Need To Install PySide6
-pip install PySide6
-```
-
 ---
 
 # How To Use
 
-When you first open Main.py you will be greeted with this screen
+* If You Are On Windows Run **OnionCalc.exe**
+* If You Are On MacOS Or Linux Run **OnionCalc.sh**
+
+Once Done This Box Below Should Appear
 
 ```
 1: Terminal
@@ -50,7 +37,13 @@ Please Enter The Mode:
 
 # How To Use GUI Mode
 
-(**GUI MODE IS CURRENTLY NOT AVAILABLE**)
+
+```
+    # In Order To Run GUI Mode You Need To Install PySide6 Or Equivelent
+    pip3 install PySide6
+```
+
+**(PS. GUI MODE IS CURRENTLY NOT COMPLETE)**
 
 ---
 

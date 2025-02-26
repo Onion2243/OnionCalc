@@ -7,8 +7,8 @@
 """
 
 # Imports The GUI And Terminal Based Calculators
-from Files.TerminalCalculator import TerminalCalculator
-from Files.GUICalculator import GUICalculator
+from Terminal.TerminalCalculator import TerminalCalculator
+from GUI.GUICalculator import GUICalculator
 
 # Print Options
 print("")
