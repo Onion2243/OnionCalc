@@ -1,6 +1,6 @@
 # OnionCalc
 
-A Symbolic Mathematical Python Calculator
+A Simple And Easy To Use Advanced Python Calculator
 
 ---
 
@@ -18,7 +18,9 @@ Since OnionCalc is a Python project, you'll need Python 3 installed to run it. I
 # How To Use
 
 * If You Are On Windows Run **OnionCalc.exe**
-* If You Are On MacOS Or Linux Run **OnionCalc.sh**
+* If You Are On MacOS Or Linux
+  * Open A Terminal Window In The OnionCalc Folder That You Unzipped
+  * Run The Following Command - **sh OnionCalc.sh**
 
 Once Done This Box Below Should Appear
 

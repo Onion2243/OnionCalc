@@ -56,4 +56,17 @@ class OnionMath:
     def spacer(amount_of_spaces):
         for i in range(amount_of_spaces):
             print("")
-
+    
+    # Metric System Conversion Functions
+    def meter_to_kilometer(meter):
+        return meter / 1000
+    def kilometer_to_meters(kilometer):
+        return kilometer * 1000
+    def meter_to_centimeter(meter):
+        return meter * 100
+    def centimeter_to_meter(centimeter):
+        return centimeter / 100
+    def centimeter_to_millimeter(centimeter):
+        return centimeter * 10
+    def millimeter_to_centimeter(millimeter):
+        return millimeter / 10

@@ -4,8 +4,11 @@ from Libraries.OnionColors.onioncolors import onioncolors
 # Import Python Built In Math Library
 import math
 
-# Import Sympy And Sympy Symbols
-import Libraries.SymPy
+# Import Setup Dependencies Script
+from OnionCalc.setup_script import Install_Dependency_GUI
+
+# Runs The GUI Dependency Installer
+Install_Dependency_GUI()
 
 # Attempts To Run The GUI Code, If PySide6 Cannot Be Found Tell The User To Install It
 try:
