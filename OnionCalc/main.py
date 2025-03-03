@@ -12,6 +12,7 @@ from GUI.GUICalculator import GUICalculator
 
 # Import The Dependency Checker
 from setup_script import Install_Dependency_Terminal
+from setup_script import Uninstall_Dependency_And_OnionCalc
 
 # Runs The Dependency Checker
 Install_Dependency_Terminal()
@@ -32,6 +33,8 @@ try:
         TerminalCalculator()
     elif SelectType == 2:
         GUICalculator()
+    elif SelectType == 0:
+        Uninstall_Dependency_And_OnionCalc()
     else:
         print("Not A Valid Input")
 except KeyboardInterrupt:

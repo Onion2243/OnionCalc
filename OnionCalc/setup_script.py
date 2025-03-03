@@ -28,7 +28,7 @@ def Uninstall_Dependency_And_OnionCalc():
         print("Uninstalling OnionCalc")
         subprocess.run([sys.executable, "-m", "pip", "uninstall", "sympy"], check=True)
         subprocess.run([sys.executable, "-m", "pip", "uninstall", "PySide6"], check=True)
-        os.remove("../../")
+        os.remove("")
     
         
 

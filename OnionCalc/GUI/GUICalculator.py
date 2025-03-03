@@ -5,11 +5,7 @@ from Libraries.OnionColors.onioncolors import onioncolors
 import math
 
 # Import Setup Dependencies Script
-from OnionCalc.setup_script import Install_Dependency_GUI
-
 # Runs The GUI Dependency Installer
-Install_Dependency_GUI()
-
 # Attempts To Run The GUI Code, If PySide6 Cannot Be Found Tell The User To Install It
 try:
     # Import PySide6 GUI Library
