@@ -1,6 +1,5 @@
 # Import Needed Libraries
 from fractions import Fraction
-from Libraries.OnionColors.onioncolors import onioncolors
 
 # Includes All My Custom Math Library Functions
 class OnionMath:
@@ -34,29 +33,16 @@ class OnionMath:
     # Function To Convert Decimal To Fraction, Takes In Decimal Float Point Value
     def decimal_to_fraction(decimal):
         return Fraction(decimal)
-
-    def thank_you_message(self):
-        # Prints Thanks For Using Message
-        print(f"""
-
-        Thank You For Using
-        {onioncolors.text_color("orange")}                        
-        ------------------------------------------------------------------------------------------------
-                                        ALGEBRAIC CALCULATOR V.0.1.0
-        ------------------------------------------------------------------------------------------------
-        """, "\033[0m")
-
     def decimal_to_percent(decimal):
         return decimal * 100
 
     def fraction_to_percent(numerator, denominator):
         decimal = numerator / denominator
         return decimal * 100
-    
     def spacer(amount_of_spaces):
         for i in range(amount_of_spaces):
             print("")
-    
+            
     # Metric System Conversion Functions
     def meter_to_kilometer(meter):
         return meter / 1000

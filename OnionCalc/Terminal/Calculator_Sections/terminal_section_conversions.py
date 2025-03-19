@@ -1,6 +1,3 @@
-# Import Onion Colors Library]
-from Libraries.OnionColors.onioncolors import onioncolors
-
 # Gets The Past Actions List From The Main TerminalCalculator File
 from Terminal.Calculator_Sections.terminal_section_past_actions_dictionary import PastActions
 
@@ -17,6 +14,14 @@ except ImportError:
     print()
 
 def Conversions_Mode():
+
+    print("""\033[38;5;214m
+------------------------------------------------------------------------------------------------
+                            Opening Conversions Calculator
+------------------------------------------------------------------------------------------------
+\033[0m
+""",)
+    
     # Print Choices And Spacer Print
     OnionMath.spacer(1)
     print("1: Fraction To Decimal")

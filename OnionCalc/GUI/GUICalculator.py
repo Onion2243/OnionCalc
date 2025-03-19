@@ -1,6 +1,3 @@
-# Imports My Own Custom Created Colors Library
-from Libraries.OnionColors.onioncolors import onioncolors
-
 # Import Python Built In Math Library
 import math
 

@@ -1,6 +1,3 @@
-# Import Onion Colors Library]
-from Libraries.OnionColors.onioncolors import onioncolors
-
 # Gets The Past Actions List From The Main TerminalCalculator File
 from Terminal.Calculator_Sections.terminal_section_past_actions_dictionary import PastActions
 
@@ -16,6 +13,14 @@ try:
 except ImportError:
     print()
 def Geomentry_Mode():
+
+    print("""\033[38;5;214m
+------------------------------------------------------------------------------------------------
+                            Opening Geometric Calculator
+------------------------------------------------------------------------------------------------
+\033[0m
+""",)
+    
     # Print Choices
 
     # Go Back And Print Spacer

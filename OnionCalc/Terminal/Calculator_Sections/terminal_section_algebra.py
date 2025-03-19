@@ -1,6 +1,3 @@
-# Import Onion Colors Library]
-from Libraries.OnionColors.onioncolors import onioncolors
-
 # Gets The Past Actions List From The Main TerminalCalculator File
 from Terminal.Calculator_Sections.terminal_section_past_actions_dictionary import PastActions
 
@@ -19,6 +16,14 @@ except ImportError:
 
 
 def Algebraic_Mode():
+
+    print("""\033[38;5;214m
+------------------------------------------------------------------------------------------------
+                            Opening Algebraic Calculator
+------------------------------------------------------------------------------------------------
+\033[0m
+""",)
+    
     # Spacer Print
     OnionMath.spacer(1)
 

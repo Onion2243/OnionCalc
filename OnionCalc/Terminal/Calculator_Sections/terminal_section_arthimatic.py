@@ -1,6 +1,3 @@
-# Import Onion Colors Library]
-from Libraries.OnionColors.onioncolors import onioncolors
-
 # Gets The Past Actions List From The Main TerminalCalculator File
 from Terminal.Calculator_Sections.terminal_section_past_actions_dictionary import PastActions
 
@@ -17,6 +14,13 @@ except ImportError:
     print()
 
 def Arthmatic_Mode():
+
+    print("""\033[38;5;214m
+------------------------------------------------------------------------------------------------
+                            Opening Arithmatic Calculator
+------------------------------------------------------------------------------------------------
+\033[0m
+""",)
 
     # Spacer Print
     OnionMath.spacer(1)
@@ -53,7 +57,7 @@ def Arthmatic_Mode():
 
         # Run Add Function
         OnionMath.spacer(1)
-        print(f"{onioncolors.text_color("green")}Solution: {OnionMath.add(num1, num2)} \033[0m")
+        print(f"\033[32mSolution: {OnionMath.add(num1, num2)} \033[0m")
         OnionMath.spacer(1)
 
         # Insert Solution And Type Into The List
@@ -77,7 +81,7 @@ def Arthmatic_Mode():
 
         # Run Subtraction Function
         OnionMath.spacer(1)
-        print(f"{onioncolors.text_color("green")}Solution: {OnionMath.subtract(num1, num2)} \033[0m")
+        print(f"\033[32mSolution: {OnionMath.subtract(num1, num2)} \033[0m")
         OnionMath.spacer(1)
 
         # Insert Solution And Type Into The List
@@ -95,7 +99,7 @@ def Arthmatic_Mode():
 
         # Run Multiply Function
         OnionMath.spacer(1)
-        print(f"{onioncolors.text_color("green")}Solution: {OnionMath.multiply(num1, num2)} \033[0m")
+        print(f"\033[32mSolution: {OnionMath.multiply(num1, num2)} \033[0m")
         OnionMath.spacer(1)
 
         # Insert Solution And Type Into The List
@@ -119,7 +123,7 @@ def Arthmatic_Mode():
 
         # Run Divide Function
         OnionMath.spacer(1)
-        print(f"{onioncolors.text_color("green")}Solution: {OnionMath.divide(num1, num2)} \033[0m")
+        print(f"\033[32mSolution: {OnionMath.divide(num1, num2)} \033[0m")
         OnionMath.spacer(1)
 
         # Insert Solution And Type Into The List
@@ -136,7 +140,7 @@ def Arthmatic_Mode():
 
         # Run Divide Function
         OnionMath.spacer(1)
-        print(f"{onioncolors.text_color("green")}Solution: {OnionMath.powers(num, exponent)} \033[0m")
+        print(f"\033[32mSolution: {OnionMath.powers(num, exponent)} \033[0m")
         OnionMath.spacer(1)
 
         # Insert Solution And Type Into The List
@@ -152,7 +156,7 @@ def Arthmatic_Mode():
 
         # Run Divide Function
         OnionMath.spacer(1)
-        print(f"{onioncolors.text_color("green")}Solution: {math.sqrt(num)} \033[0m")
+        print(f"\033[32mSolution: {math.sqrt(num)} \033[0m")
         OnionMath.spacer(1)
 
         # Insert Solution And Type Into The List
