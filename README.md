@@ -27,6 +27,7 @@ Once Done This Box Below Should Appear
 ```
 1: Terminal
 2: GUI
+3: Open Settings Editor
 
 Please Enter The Mode: 
 ```
@@ -39,13 +40,7 @@ Please Enter The Mode:
 
 # How To Use GUI Mode
 
-
-```
-    # In Order To Run GUI Mode You Need To Install PySide6 Or Equivelent
-    pip3 install PySide6
-```
-
-**(PS. GUI MODE IS CURRENTLY NOT COMPLETE)**
+**GUI MODE IS CURRENTLY NOT COMPLETE**
 
 ---
 
