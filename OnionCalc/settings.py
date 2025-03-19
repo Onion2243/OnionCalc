@@ -29,7 +29,7 @@ def Settings_Editor():
     
                 file.flush()
                 
-                file.write(setting_modes_visibility)
+                json.dump(setting_modes_visibility, file)
                 file.close()
             elif Mode == 0:
                 print("""\033[38;5;214m

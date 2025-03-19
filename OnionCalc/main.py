@@ -27,7 +27,7 @@ file = open("settings.json", "r")
 def load_setting_mode_visibility():
     settings_mode_visibilty = file.readline()
     settings_mode_visibilty = json.loads(settings_mode_visibilty)
-    return list(settings_mode_visibilty)
+    return settings_mode_visibilty
 
 setting_1 = load_setting_mode_visibility()
 
